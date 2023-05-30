@@ -1,5 +1,3 @@
 
 import streamlit
-streamlit.title('My parents new healthy dinner
-                - fruits, oats
-                - pulses, vegetables')
+streamlit.title('My parents new healthy dinner contains fruits, oats, pulses, vegetables')
