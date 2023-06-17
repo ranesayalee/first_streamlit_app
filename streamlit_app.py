@@ -26,6 +26,8 @@ streamlit.write('The user entered ', fruit_choice)
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit" + fruit_choice)
+
+import snowflake.connector
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 #streamlit.text(fruityvice_response.json())
 
