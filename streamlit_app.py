@@ -44,3 +44,5 @@ streamlit.dataframe(my_data_rows)
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
 #streamlit.dataframe(fruityvice_normalized)
+
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
