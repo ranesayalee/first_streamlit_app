@@ -41,7 +41,7 @@ try:
 except URLError as e:
   streamlit.error()
 
-streamlit.stop()
+#streamlit.stop()
 
 
 fruits_to_show = my_fruit_list.loc[fruits_selected]
